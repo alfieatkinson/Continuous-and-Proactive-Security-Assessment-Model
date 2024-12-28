@@ -1,40 +1,33 @@
-\documentclass[conference]{IEEEtran}
-\IEEEoverridecommandlockouts
-\usepackage{amsmath,amssymb,amsfonts}
-\usepackage[style=authoryear-ibid,backend=biber]{biblatex}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
+\documentclass[harvard]{lincolncsthesis}
 
-\addbibresource{references.bib}
+\input{preamble/packages.tex}
+\input{preamble/thesis-details.tex}
+\input{preamble/bib-setup.tex}
+
+\setlength{\parindent}{0.635cm}
+\setlength{\parskip}{0pt plus 1pt}
 
 \begin{document}
 
-\title{Evaluating the Attention-Based View in Information Security Risk Assessments: A Top-Down Approach}
-
-\author{\IEEEauthorblockN{Alfie Atkinson}
-\IEEEauthorblockA{\textit{Master of Science in Computer Science} \\
-\textit{University of Lincoln} \\
-25715017@students.lincoln.ac.uk}
-}
-
 \maketitle
 
-\begin{abstract}
-    Abstract...
-\end{abstract}
+\input{chapters/abstract.tex}
 
-\section{Introduction}
-This section introduces the topic, highlighting the importance of Information Security Risk Assessments (ISRA) and the role of top management teams (TMT) in addressing cybersecurity following breaches.
+\thesisTables
+\thesisBodyStart
 
-\section{Appraisal of Theoretical Model and Hypothesis}
-In this section, provide a description and appraisal of the model used in the case study paper. Discuss the merits, strengths, and limitations of the model, offering insights and critiques supported by theoretical models and literature.
+\chapter{Introduction}
+\input{chapters/introduction.tex}
 
-\section{New Top-Down Approach: Continuous and Proactive Risk Assessment Model (CAPSAM)}
-This section presents a detailed analysis and discussion of your new model. Explain the theoretical model adopted, its importance for top management buy-in for ISRA, and support your points with applications, established facts, and literature citing academic and similar real-life cases.
+\chapter{Case Study Paper – Appraisal of Theoretical Model and Hypothesis}
+\input{chapters/case-study-appraisal.tex}
 
-\section{Conclusion}
-Summarise the key findings, implications for practice, and potential areas for future research.
+\chapter{New ``Top Down'' Model Selection for Information Security Risk Assessment}
+\input{chapters/new-model.tex}
 
-\printbibliography
+\chapter{Conclusion}
+\input{chapters/conclusion.tex}
+
+\printReferences
 
 \end{document}
