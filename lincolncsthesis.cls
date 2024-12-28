@@ -66,7 +66,7 @@
 \RequirePackage{ifthen}
 \RequirePackage{xkeyval}
 \RequirePackage[dvipsnames]{xcolor}
-\RequirePackage[T1]{fontenc} % font types and character verification
+%\RequirePackage[T1]{fontenc} % font types and character verification
 \RequirePackage[UKenglish]{babel}
 \RequirePackage[UKenglish]{isodate}
 \RequirePackage[utf8]{inputenc}
@@ -432,13 +432,13 @@
 
 % Customize the section heading
 \titleformat{\section}
-  {\normalfont\large}{\thesection}{1em}{}
+  {\normalfont\large\bfseries}{\thesection}{1em}{}
 
 \titleformat{\subsection}
-  {\normalfont\normalsize}{\thesubsection}{1em}{}
+  {\normalfont\normalsize\bfseries\itshape}{\thesubsection}{1em}{}
 
 \titleformat{\subsubsection}
-  {\normalfont\normalsize}{\thesubsubsection}{1em}{}
+  {\normalfont\normalsize\itshape}{\thesubsubsection}{1em}{}
 
 
 % REFERENCING
