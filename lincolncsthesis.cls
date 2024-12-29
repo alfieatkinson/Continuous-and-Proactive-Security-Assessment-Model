@@ -50,7 +50,7 @@
 \NeedsTeXFormat{LaTeX2e}
 
 % Article class
-\LoadClass[12pt]{report}
+\LoadClass[11pt]{report}
 
 
 
