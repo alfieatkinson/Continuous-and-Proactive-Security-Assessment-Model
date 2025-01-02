@@ -584,3 +584,11 @@
 % mark style so that it shows the title of the chapter only.
 \pagestyle{mainStyle}
 \renewcommand{\chaptermark}[1]{\markboth{{#1}}{}}
+
+% A command to create a blank footnote
+\let\svthefootnote\thefootnote
+\textheight 1in
+\newcommand\blankfootnote[1]{%
+  \let\thefootnote\relax\footnotetext{#1}%
+  \let\thefootnote\svthefootnote%
+}
