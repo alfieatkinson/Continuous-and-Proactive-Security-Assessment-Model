@@ -84,6 +84,7 @@
 \RequirePackage{hyperref}
 \RequirePackage[table,figure]{totalcount}
 \RequirePackage{appendix}
+\RequirePackage{array}
 % -----------------
 \RequirePackage{csquotes}
 \RequirePackage{titlesec}
