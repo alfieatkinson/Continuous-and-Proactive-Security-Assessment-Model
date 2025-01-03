@@ -414,7 +414,7 @@
 {\normalfont\Large\bfseries}{\chaptertitlename\ \thechapter}{0pt}{\LARGE}
 
 % And space it out a bit
-\titlespacing*{\chapter} {0pt}{0pt}{10mm}
+\titlespacing*{\chapter} {0pt}{20mm}{10mm}
 
 % A fake chapter title command to emulate chapter titles
 % without actually adding a chapter
