@@ -498,7 +498,14 @@
 	\printbibliography[notkeyword={game}, title=#1]
 }
 
+% Command for printing out appendices
+\newcommand{\printAppendices}[1][Appendices]{
+    \addcontentsline{toc}{chapter}{Appendices}
 
+    \appendix
+    \chapter*{Appendices}
+    \input{chapters/appendices.tex}
+}
 
 
 
