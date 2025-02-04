@@ -1,6 +1,12 @@
+<div align="center">
+
 # Evaluating the Attention-Based View in Risk Management and Proposing the New “Top-Down” Continuous and Proactive Security Assessment Model (CAPSAM)
 
 This project is submitted in partial fulfilment of the Degree of **Master of Science in Computer Science**.
+
+### Grade Achieved: 75
+
+</div>
 
 ## Abstract
 
